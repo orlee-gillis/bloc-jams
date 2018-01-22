@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+<title>Difference between absolute and relative positioning:</title>
+</head>
+<body>
+CSS layouts, and in this case, CSS positioning, offers five position properties for HTML elements on a webpage: static, relative, absolute, fixed, and inherit.
+
+<h5>Relative Positioning:</h5>
+When an element is described as being 'positioned relatively' -- it means that it can be adjusted with offset properties (top, fight, bottom, and left). 
+In practice, this means that the element(s) being styled can be positioned differently than other elements, yet without affecting (changing the positioning/style of) the other elements in the doc/on the page.
+
+<h5>Absolute Positioning:</h5>
+Elements which are positioned absolutely have the ability to be placed/positioned anywhere -- without affecting or being affected by any other element on the page. 
+Like relative elements can be adjusted with offset properties, yet they are different than relative elements in that changes made to the browser/document do not affect their positioning. 
+
+<title>The CSS Box Model</title>
+<h1>Treating Contained Content: How default box-sizing differs than box-sizing: border-box</h1>
+
+A 'box' in CSS is a literal description of each CSS element; as every CSS element can be considered a box, so too, elements nested inside other elements are/can be considered boxes within boxes.
+In this case, the space (both horizontal and vertical) around an element are considered layers that determine the relationship between the elements, in other words, the type of edges that characterize the boxes.
+
+When the 'padding' property is added between/inside two elements (boxes), the browser's default behavior is to increase both the width and the height -- according to the sizing of the padding.  
+This default behavior is a CSS property/value known as 'box-sizing: content-box'.
+
+An alternative CSS property which also describes a box's padding and borders (the width and height between two boxes (elements)) is border-box: a property used to describe a box whose width and height remains the same, despite added padding and borders.
+
+In practice, border-box is often used to prevent inner boxes/elements from bleeding outside the bonds of its outer box. 
+
+
+
+</body>
+</html>
